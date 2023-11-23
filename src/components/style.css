@@ -1,0 +1,11 @@
+.logo-img{
+    width: 100px;
+}
+.login-button{
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-size: large !important;
+}
