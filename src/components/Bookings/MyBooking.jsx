@@ -34,7 +34,8 @@ function MyBooking() {
                 // sessionStorage.setItem('userData',JSON.stringify(res.data.userData))
             }
         } catch (error) {
-            console.log(toast.error(error.response.data.message));
+            // console.log(toast.error(error.response.data.message));
+            toast.error(error.response.data.message)
         }
     }
 

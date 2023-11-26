@@ -33,7 +33,7 @@ function Login() {
         }
       }
     } catch (error) {
-      toast.error("Incorrect Email or Password")
+      toast.error(error.response.data.message)
     }
   }
 
