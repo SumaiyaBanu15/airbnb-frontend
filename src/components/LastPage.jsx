@@ -15,7 +15,8 @@ function LastPage() {
     <br/>
     Happy Travelling! Happy Staying!
     </h3>
-    <Button onClick={navigate('/home')} style={{backgroundColor:"var(--theme)"}}>Visit Again</Button>
+    <br/>
+    <Button onClick={()=>navigate('/home')} style={{backgroundColor:"var(--theme)"}}>Visit Again</Button>
  </div>
   </>
 }
