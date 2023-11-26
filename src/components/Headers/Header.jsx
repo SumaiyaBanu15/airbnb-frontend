@@ -49,7 +49,7 @@ function Header() {
   {/* ---NAV BAR--- */}
   <div className='navbar'>
     {/* LeftSide part - Airbnb Logo */}
-    <img src="/src/assets/logos/ABNB_BIG.png" alt="logo" className='navbar-logo' />
+    <img src="/public/logos/ABNB_BIG.png" alt="logo" className='navbar-logo' />
     {/* Middle part */}
     <div className='search-bar'>
       <div className='search-bar-text1'>

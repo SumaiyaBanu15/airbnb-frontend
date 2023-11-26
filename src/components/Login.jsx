@@ -39,7 +39,7 @@ function Login() {
 
   return <>
    <div className='container'>
-    <img src='/src/assets/logos/ABNB_BIG.png' alt="airbnb Logo" className='logo-img'/>
+    <img src='/public/logos/ABNB_BIG.png' alt="airbnb Logo" className='logo-img'/>
     <h1 style={{textAlign:"center", color:"var(--theme)"}}> Welcome To AirBnb</h1>
     <Form>
       <div className='div-label'>
