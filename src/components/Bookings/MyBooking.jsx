@@ -28,7 +28,7 @@ function MyBooking() {
             })
             console.log(res); 
             if(res.status === 201 && res.data){
-                navigate('/home')
+                navigate('/last')
 
                 toast.success(res.data.message)
                 // sessionStorage.setItem('userData',JSON.stringify(res.data.userData))

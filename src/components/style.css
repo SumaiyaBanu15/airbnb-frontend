@@ -17,3 +17,8 @@ button{
     font-size: larger;
     padding: 5px;
 }
+
+/* Last Page */
+.lastPage{
+    text-align: center;
+}

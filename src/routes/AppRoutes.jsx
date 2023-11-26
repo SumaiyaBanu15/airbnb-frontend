@@ -7,6 +7,7 @@ import Signup from '../components/Signup'
 import Login from '../components/Login'
 import Footer from '../components/Footers/Footer'
 import MyBooking from '../components/Bookings/MyBooking'
+import LastPage from '../components/LastPage'
 
 
 function AppRoutes() {
@@ -23,6 +24,8 @@ function AppRoutes() {
     </> } />
     
     <Route path='/myBooking' element={<MyBooking />} />
+
+    <Route path='/last' element={<LastPage />} />
 
     <Route path='/*' element={<Navigate to ='/'/>} />
   </Routes>
