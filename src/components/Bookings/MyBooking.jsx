@@ -41,7 +41,7 @@ function MyBooking() {
   return <>
   <div className='myBooking'>
     <div className='booking-content'>
-    <img src='/public/logos/ABNB_BIG.png' alt="airbnb Logo" className='logo-img'/>
+    <img src='/logos/ABNB_BIG.png' alt="airbnb Logo" className='logo-img'/>
      <h2 style={{color:"var(--theme)"}}>Book your favourite place right now!</h2>
      <Form>
       <div className='div-label'>
