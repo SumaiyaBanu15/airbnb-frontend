@@ -15,4 +15,5 @@ User can create their account in this page and explore the page and book your de
 
 => Through the search option we can able to select our designated place like Tree House, Oceanview, Hillview, Tradtional House etc..,
 
-Netlify URL: 
+Netlify URL : https://zingy-puppy-191dc4.netlify.app
+
