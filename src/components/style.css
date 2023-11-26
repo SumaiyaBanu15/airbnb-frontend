@@ -9,3 +9,11 @@ button{
     height: 40px;
     font-size: large !important;
 }
+.div-label{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.label-text{
+    font-size: larger;
+    padding: 5px;
+}

@@ -9,8 +9,9 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 
-function Cards({card}) {
-  return <div className='card-box'>
+function Cards({card, showAframeDetails}) {
+  return <>
+  <div className='card-box'>
     <Swiper
     slidesPerView={1}
     spaceBetween={15}
@@ -34,12 +35,13 @@ function Cards({card}) {
     </div>
 
     <p style={{margin:"0.2rem", fontSize:"1rem", color:"var(--font-grey)"}}>{card.date}</p>
-
+    <p style={{margin: "0.2rem", fontSize:"1.2rem", color:"var(--black)"}}>{card.place}</p>
     <p style={{margin: "0.2rem", fontSize:"1rem", color:"var(--black)"}}>
     <span style={{fontWeight:"600"}}>₹{card.price}</span>&nbsp; night </p>
     </div>
-    
 
+
+ </>
 }
 
 export default Cards

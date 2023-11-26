@@ -16,6 +16,9 @@ export default function BasicMenu() {
     setAnchorEl(null);
   };
   const navigate = useNavigate()
+ 
+  let userData = JSON.parse(sessionStorage.getItem('userData'))
+
   return (
     <div>
       <div id="basic-button"
@@ -26,6 +29,7 @@ export default function BasicMenu() {
         className='profile-menu-flex'> 
         <MenuRoundedIcon />
         <AccountCircleRoundedIcon />
+        <h6 style={{textAlign:"center", marginTop:'4px'}}>{`${userData.name}`}</h6>
       </div>
       <Menu
         id="basic-menu"
@@ -40,7 +44,7 @@ export default function BasicMenu() {
             borderRadius:"1rem",
             boxShadow:"0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%)" },
         }}>
-        <MenuItem className="menu-items signup" onClick={()=>navigate('/')}> Signup </MenuItem>
+        <MenuItem className="menu-items signup" onClick={()=>navigate('/signup')}> Signup </MenuItem>
         <MenuItem className="menu-items" onClick={()=>navigate('/')}> Login </MenuItem>
         <div style={{
             height:"1px", backgroundColor:"var(--grey)",

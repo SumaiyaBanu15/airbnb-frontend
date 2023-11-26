@@ -9,6 +9,11 @@
     --theme:#ff385c;
     --light-grey:#f7f7f7;
 }
+
+*{
+    margin: 0;
+}
+
 body{
     margin:0;
     padding: 2.5rem;

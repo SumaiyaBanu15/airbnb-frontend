@@ -8,9 +8,10 @@ export const list = [
         "/HotelImages/A-Frame/A-frame-house-designrulz-10-664x505.jpg",
         "/HotelImages/A-Frame/maxresdefault.jpg"
    ],
-    price:"20,000",
+    price:"2,000",
     date:"15-20 May",
     title:"Aframe House",
+    place:"New Delhi",
     ratings:"4.5"
  },
  {
@@ -21,9 +22,10 @@ export const list = [
         "/HotelImages/Amazing/Featured-41.png",
     
     ],
-    price:"25,000",
+    price:"4,000",
     date:"12-15 Jan",
     title:"Amazing Views",
+    place:"Himachal Pradesh",
     ratings:"4.8"
  },
  {
@@ -34,9 +36,10 @@ export const list = [
         "/HotelImages/Oceanview/Anantara-Veli-Maldives-Over-Water-Villa.webp",
         "/HotelImages/Oceanview/LYX2Uu3iioraStnE1wWXjNvCCbPYf2AY7hD6BKYA.jpeg"
     ],
-    price:"13,000",
+    price:"3,000",
     date:"27-31 Jul",
     title:"Beach View",
+    place:"Goa",
     ratings:"4.7"
  },
  {
@@ -48,9 +51,10 @@ export const list = [
         "/HotelImages/BoatHouse/houseboat-3-bedroom-luxury-5.jpeg"
     
     ],
-    price:"15,000",
+    price:"5,000",
     date:"1-5 Oct",
     title:"Boat House",
+    place:"Kerala",
     ratings:"5.0"
  },
  {
@@ -61,9 +65,10 @@ export const list = [
         "/HotelImages/CaveHouse/8a867e70b5b318e9505f0138ccfb41e7.jpg",
         "/HotelImages/CaveHouse/kayakapi_premium_caves.jpg"
     ],
-    price:"30,000",
+    price:"3,000",
     date:"13-18 Nov",
     title:"Cave House",
+    place:"Madhya Pradesh",
     ratings:"4.6"
  },
  {
@@ -75,9 +80,10 @@ export const list = [
         "/HotelImages/CityView/Park-Hyatt-New-York-Manhattan-Sky-Suite-Master-Bedroom-low-res_54_990x660.webp"
     
     ],
-    price:"12000",
+    price:"2,000",
     date:"1-8 Aug",
     title:"City View",
+    place:"Mumbai",
     ratings:"4.7"
  },
  {
@@ -88,9 +94,10 @@ export const list = [
         "/HotelImages/Desert/Desert-Nights-Camp1.webp",
         "/HotelImages/Desert/e44f047bdb25e1145061fae95c0e0e5d.jpg"    
     ],
-    price:"14,000",
+    price:"4,000",
     date:"15-19 Mar",
     title:"Desert View",
+    place:"Rajasthan",
     ratings:"4.3"
  },
  {
@@ -100,9 +107,10 @@ export const list = [
         "/HotelImages/Design/chattanooga-tiny-house-4.jpg",
         "/HotelImages/Design/e261a1b57c5a45b033660bf4452babb0.jpg"
     ],
-    price:"20,000",
+    price:"2,500",
     date:"13-18 Jun",
     title:"Design House",
+    place:"Bangalore",
     ratings:"4.8"
  },
  {
@@ -113,9 +121,10 @@ export const list = [
         "/HotelImages/FarmHouse/798561_15072210110032751956.jpg",
         "/HotelImages/FarmHouse/MaiChauEcolodge-1-372x247.jpg"
     ],
-    price:"8,000",
+    price:"1,800",
     date:"23-26 Dec",
     title:"Farm House",
+    place:"Assam",
     ratings:"4.6"
  },
  {
@@ -126,9 +135,10 @@ export const list = [
         "/HotelImages/GlassHouse/casa-sull-albero.jpg",
         "/HotelImages/GlassHouse/Glass-Suites-at-Golden-Crown-Levin-Iglut.webp"
     ],
-    price:"30,000",
+    price:"3,500",
     date:"8-12 Aug",
     title:"Glass House",
+    place:"Maharastra",
     ratings:"4.5"
  },
  {
@@ -139,9 +149,10 @@ export const list = [
         "/HotelImages/Island/6de4470769ee67dce1547dfdd23e25d0.jpg",
         "/HotelImages/Island/bba4442daa0a0ea23f606d826b1786b3.jpg"
     ],
-    price:"35,000",
+    price:"5,000",
     date:"19-24 Jun",
     title:"Island House",
+    place:"Jammu and Kashmir",
     ratings:"4.4"
  },
  {
@@ -150,9 +161,10 @@ export const list = [
         "/HotelImages/RiverView/686b47fae4aefb8e926bfad8a7423e5dl-m263243856od-w480_h360_x2.jpg",
         "/HotelImages/RiverView/1276107_16081518140045496414.jpg",
     ],
-    price:"28,000",
+    price:"1,000",
     date:"18-23 Dec",
     title:"Lake View",
+    place:"Karnataka",
     ratings:"4.4"
  },
  {
@@ -163,9 +175,10 @@ export const list = [
         "/HotelImages/Luxury/b7b111233016bc0af2f8a47e38a73a09l-m0xd-w1020_h770_q80.jpg",
         "/HotelImages/Luxury/intercontinental-moscow.jpg"   
     ],
-    price:"50,000",
+    price:"10,000",
     date:"1-7 Sep",
     title:"Luxury House",
+    place:"Chennai",
     ratings:"4.9"
  },  
  {
@@ -176,9 +189,10 @@ export const list = [
         "/HotelImages/Mountain/4.jpg",
         "/HotelImages/Mountain/Ambatty-green-resorts.webp"
     ],
-    price:"45,000",
+    price:"4,500",
     date:"21-26 May",
     title:"Mountain View",
+    place:"Wayanad",
     ratings:"4.7"
  },  
  {
@@ -190,9 +204,10 @@ export const list = [
         "/HotelImages/RiverView/riverview-resort.jpg",
 
     ],
-    price:"18,000",
+    price:"1,500",
     date:"7-12 Jun",
     title:"River View",
+    place:"Uttra Pradesh",
     ratings:"4.5"
  }, 
  {
@@ -203,9 +218,10 @@ export const list = [
         "/HotelImages/TentHouse/FvxMDYyWwAEXkqx.jpg",
         "/HotelImages/TentHouse/Handcrafted-Luxury-Safari-tents-Luxury-Tent-Manufacturer.jpg"
     ],
-    price:"23,000",
+    price:"3,000",
     date:"1-5 Oct",
     title:"Tent House",
+    place:"Hyderabad",
     ratings:"4.7"
  },
  {
@@ -216,9 +232,10 @@ export const list = [
         "/HotelImages/TinyHouse/millertinyhouse.webp",
         "/HotelImages/TinyHouse/tiny-house-shacky-exterior.jpg"
     ],
-    price:"18,000",
+    price:"1,500",
     date:"14-19 Sep",
     title:"Tiny House",
+    place:"Pune",
     ratings:"4.8"
  },
  {
@@ -229,9 +246,10 @@ export const list = [
         "/HotelImages/Traditional/fawl_zupy7s.webp",
         "/HotelImages/Traditional/a33e29512a8ae4240e59509714307849.jpg"
     ],
-    price:"10,000",
+    price:"6,000",
     date:"21-16 Apr",
     title:"Traditional House",
+    place:"Tamil Nadu",
     ratings:"4.9"
  },
  {
@@ -242,9 +260,10 @@ export const list = [
         "/HotelImages/TreeHouse/San-Juan-Islands-Nelson-Treehouse-2018-Horiz-1.jpg",
         "/HotelImages/TreeHouse/ca290f1c6672acf581e84e1239082d2c.jpg"
     ],
-    price:"28,000",
+    price:"8,000",
     date:"18-23 Dec",
     title:"Tree House",
+    place:"Jaipur",
     ratings:"4.4"
  },
  {
@@ -255,9 +274,10 @@ export const list = [
         "/HotelImages/UnderWater/hotel_poseidon_silencio1.webp",
         "/HotelImages/UnderWater/maxresdefault.jpg",
     ],
-    price:"40,000",
+    price:"15,000",
     date:"18-29 Dec",
     title:"Under Water",
+    place:"Maldives",
     ratings:"4.4"
  }
  

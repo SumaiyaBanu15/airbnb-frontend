@@ -1,0 +1,32 @@
+/* .myBooking{
+    background-image: url('../../assets/Images/backdrop.jpg');
+    background-size:contain ;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+} */
+.booking-content{
+    padding: 30px;
+}
+h2{
+    text-align: center;
+    color: var(--theme);
+}
+.div-label{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.label-text{
+    font-size: larger;
+    padding: 5px;
+}
+.save-button{
+    width: 230px !important;;
+    height:40px;
+    margin: auto;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    font-size: large !important;
+    display: flex;
+    gap:2.5rem;
+}
