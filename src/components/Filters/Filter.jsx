@@ -124,6 +124,7 @@ function Filter() {
   const selectedData = selectedFilter!== null ? list[selectedFilter] : null;
   
   return <>
+  <div className='container'>
     <div className="filter-div">
       {icons.map((item, i) => (
       <div className={`img-div ${i == selectedFilter && "selected-box"}`} key={i} onClick={()=> {
@@ -136,6 +137,7 @@ function Filter() {
         </div>
       
       ))}
+      </div>
     </div>
 
     {/* Aframe Houses */}

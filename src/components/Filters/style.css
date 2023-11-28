@@ -40,9 +40,33 @@
 }
 
 /* ---Media Query--- */
-@media only screen and (max-width: 800px){
+
+/* Breakpoints - xs */
+@media screen and (min-width: 475px){
     .filter-div{
         padding: 0.5rem;
         padding-top: 1.5rem;
     }
+    .container{
+        padding-left: 30%;
+        justify-content: center;
+    }
 }
+/* Breakpoints - md */
+@media screen and (min-width:768px){
+    .filter-div{
+        padding: 1rem 2rem;
+    }
+    .img-div{
+        margin-right: 1rem;
+    }
+}
+/* Breakpoints - lg */
+@media screen and (min-width:768px){
+    .filter-div{
+        padding: 1rem 3rem;
+    }
+    .img-div{
+        margin-right: 2rem;
+    }
+}    

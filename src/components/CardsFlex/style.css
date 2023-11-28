@@ -40,6 +40,7 @@
 }
 
 /* ---Media Query--- */
+
 @media only screen and (max-width:1000px){
     .swiper-container,
     .card-img{
@@ -54,6 +55,9 @@
        height: 50%;
        max-height: 400px;
        width: 90vw;
+       justify-content: center;
+    }
+    .cards-flex{
+        padding-left: 60%;
     }
 }
-

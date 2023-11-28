@@ -22,3 +22,26 @@ button{
 .lastPage{
     text-align: center;
 }
+
+/* Media Queries */
+@media screen and (min-width:475px){
+    .div-label{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    button{
+        width: 200px;
+    }
+}
+@media screen and (min-width:768px){
+    .div-label{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+@media screen and (min-width:1024px){
+    .div-label{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}

@@ -30,3 +30,39 @@ h2{
     display: flex;
     gap:2.5rem;
 }
+
+/* Media Queries */
+@media screen and (min-width:475px) {
+
+    .div-label{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .save-button{
+        width:100%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .booking-content{
+        padding: 40px;
+    }
+    .div-label{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .save-button{
+        width:200px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .booking-content{
+        padding: 50px;
+    }
+    .div-label{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+

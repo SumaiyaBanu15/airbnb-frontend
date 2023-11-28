@@ -105,6 +105,48 @@
 }
 
 /* Media Query */
-/* @media only screen and (max-width :800px){
-
-} */
+@media screen and (min-width:475px){
+    .navbar{
+        padding: 1rem 2rem;
+    }
+    .search-bar{
+        padding: 0.5rem 1rem;
+    }
+    .search-bar-text1,
+    .search-bar-text2{
+        font-size:1rem;
+    }
+    .airbnb-your-home{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:768px){
+    .navbar{
+        padding: 1rem 3rem;
+    }
+    .search-bar{
+        padding: 0.7rem 1.5rem;
+    }
+    .search-bar-text1,
+    .search-bar-text2{
+        font-size:1.2rem;
+    }
+    .airbnb-your-home{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-width:1024px){
+    .navbar{
+        padding: 1rem 4rem;
+    }
+    .search-bar{
+        padding: 1rem 2rem;
+    }
+    .search-bar-text1,
+    .search-bar-text2{
+        font-size:1.5rem;
+    }
+    .airbnb-your-home{
+        font-size: 1.2rem;
+    }
+}
