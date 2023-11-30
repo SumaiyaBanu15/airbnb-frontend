@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 
-function Cards({card, showAframeDetails}) {
+function Cards({card}) {
   return <>
   <div className='card-box'>
     <Swiper

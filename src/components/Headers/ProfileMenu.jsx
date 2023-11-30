@@ -51,7 +51,11 @@ export default function BasicMenu() {
             width:"100%"
         }}/>
         <MenuItem className="menu-items" onClick={()=>navigate('/myBooking')}> Book Your Room </MenuItem>
-        <MenuItem className="menu-items" onClick={handleClose}> Help Centre </MenuItem>
+
+        <MenuItem className="menu-items" onClick={()=>navigate('/getAllBookings')}> All Bookings </MenuItem>
+
+        <MenuItem className="menu-items" onClick={()=>navigate('/getAllRooms')}> All Rooms </MenuItem>
+
       </Menu>
     </div>
   );

@@ -9,6 +9,8 @@ import Footer from '../components/Footers/Footer'
 import MyBooking from '../components/Bookings/MyBooking'
 import LastPage from '../components/LastPage'
 import CreateRoom from '../components/Bookings/CreateRoom'
+import AllBookings from '../components/Bookings/AllBookings'
+import AllRooms from '../components/Bookings/AllRooms'
 
 
 function AppRoutes() {
@@ -27,6 +29,10 @@ function AppRoutes() {
     <Route path='/myBooking' element={<MyBooking />} />
 
     <Route path='/createRoom' element={<CreateRoom />} />
+
+    <Route path='/getAllBookings' element={<AllBookings />} />
+
+    <Route path='/getAllRooms' element={<AllRooms />}/>
 
     <Route path='/last' element={<LastPage />} />
 
