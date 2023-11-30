@@ -50,7 +50,7 @@ export default function BasicMenu() {
             height:"1px", backgroundColor:"var(--grey)",
             width:"100%"
         }}/>
-        <MenuItem className="menu-items" onClick={handleClose}> Airbnb your home </MenuItem>
+        <MenuItem className="menu-items" onClick={()=>navigate('/room')}> Create Your Room </MenuItem>
         <MenuItem className="menu-items" onClick={handleClose}> Help Centre </MenuItem>
       </Menu>
     </div>

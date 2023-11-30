@@ -109,8 +109,8 @@ function Header() {
     {/* RightSide part */}
     <div className='profile-container'>
       <div className='airbnb-your-home'>
-        <Link to ="/myBooking" style={{textDecoration:"none"}}>
-        <Button style={{backgroundColor:"transparent", border:"none", color:"var(--black)", textDecoration:"none", textAlign:"center"}}>Start Booking</Button>
+        <Link to ="/createRoom" style={{textDecoration:"none"}}>
+        <Button style={{backgroundColor:"transparent", border:"none", color:"var(--black)", textDecoration:"none", textAlign:"center"}}>Create Room</Button>
         </Link></div>
       <div className='airbnb-your-home'> <LanguageIcon /> </div>
       <div className='profile-div'> <BasicMenu /> </div>

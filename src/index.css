@@ -32,8 +32,8 @@ body{
         padding: 3rem;
     }
 }
-@media screen and (min-width:1024px){
+/* @media screen and (min-width:1024px){
     body{
         padding: 4rem;
     }
-}
+} */
