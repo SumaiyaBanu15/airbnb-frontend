@@ -10,14 +10,14 @@ function CreateRoom() {
     let [email, setEmail] = useState("");
     let [place, setPlace] = useState("");
     let [noOfPerson, setNoOfPerson] = useState("");
-    let [amenities, setAmenities] = useState("");
-    let [pricePerNight, setPricePerNight] = useState("");
+    let [amenities, setAmenities] = useState([]);
+    let [pricePerNight, setPricePerNight] = useState(0);
     let [checkIn, setCheckIn] = useState("");
     let [checkOut, setCheckOut] = useState("");
 
     let navigate = useNavigate();
 
-    const handleCreate = async(e)=>{
+    const handleCreate = async(e)=> {
         e.preventDefault()
         try {
         
@@ -26,7 +26,7 @@ function CreateRoom() {
                 email,
                 place,
                 noOfPerson,
-                amenities,
+                amenities: amenities.join(','),
                 pricePerNight,
                 checkIn,
                 checkOut
@@ -36,6 +36,12 @@ function CreateRoom() {
                 navigate('/home')
                 toast.success(res.data.message)
             }
+            else {
+              console.error("Unexpected response:", res);
+              toast.error("Something went wrong. Please try again later.");
+            }
+            
+
         } catch (error) {
             toast.error(error.response.data.message)
         }
@@ -44,7 +50,8 @@ function CreateRoom() {
     useEffect(()=>{
         const selectedPlace = list.find((item)=> item.place === place);
             if(selectedPlace){
-                setPricePerNight(selectedPlace.price);
+              const price = parseFloat(selectedPlace.price.replace(/,/g, ''));
+                setPricePerNight(price || 0);
         }
     },[place]);
 
