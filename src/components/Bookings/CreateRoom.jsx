@@ -31,13 +31,13 @@ function CreateRoom() {
                 checkIn,
                 checkOut
             })
-            console.log(res);
+            // console.log(res);
             if(res.status === 201 && res.data){
                 navigate('/home')
                 toast.success(res.data.message)
             }
             else {
-              console.error("Unexpected response:", res);
+              // console.error("Unexpected response:", res);
               toast.error("Something went wrong. Please try again later.");
             }
             

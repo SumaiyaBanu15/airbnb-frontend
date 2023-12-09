@@ -25,7 +25,7 @@ function AllBookings() {
                     toast.success(res.data.message);
                 }
                 else{
-                    console.log("Unexpected Response :", res);
+                    toast.error("Unexpected Response :", res);
                 }
             } catch (error) {
                 toast.error(error.response.data.message)

@@ -29,7 +29,7 @@ function Login() {
         }
         
         else{
-          console.log("Incorrect Email or Password")
+          toast.error("Incorrect Email or Password")
         }
       }
     } catch (error) {

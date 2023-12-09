@@ -26,7 +26,7 @@ function MyBooking() {
                 checkIn,
                 checkOut
             })
-            console.log(res); 
+            // console.log(res); 
             if(res.status === 201 && res.data){
                 navigate('/last')
 

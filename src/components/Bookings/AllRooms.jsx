@@ -15,7 +15,7 @@ function AllRooms() {
         const fetchRooms = async()=>{
             try {
                 const res = await AxiosService.get(`/room/allRooms`);
-                console.log(res.data);
+                // console.log(res.data);
 
                 if(res.status === 200){
                     const fetchedRooms = res.data.allRooms || [];
@@ -24,7 +24,7 @@ function AllRooms() {
                     toast.success(res.data.message);
                 }
                 else{
-                    console.log("Unexpexted Response:", res);
+                    toast.error("Unexpexted Response:", res);
                 }
             } catch (error) {
                 toast.error(error.response.data.message)
