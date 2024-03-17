@@ -10,6 +10,10 @@ import "swiper/css/navigation";
 
 
 function Cards({card}) {
+
+    if (!card) {
+        return null; // or any fallback UI
+      }
   return <>
   <div className='card-box'>
     <Swiper
@@ -20,7 +24,7 @@ function Cards({card}) {
     cssMode={true}
     modules={[Pagination, Navigation]}
     className='swiper-container' >
-        {card.imgSrc.map((src,i)=>(
+        {card.imgSrc && card.imgSrc.map((src,i)=>(
             <SwiperSlide key={i}>
                 <img src={src} className='card-img' alt={`slide-${i}`} />
             </SwiperSlide>
