@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -60,7 +60,7 @@ function Login() {
       <br/>
       <br/>
       <div className='signup-btn'>
-        Don't have an account yet? <Link to={'/signup'}>Signup</Link>
+        Don&apos;t have an account yet? <Link to={'/signup'}>Signup</Link>
       </div>
       </div>
     </Form>

@@ -1,4 +1,3 @@
-import React from 'react'
 import './style.css'
 import { Button } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
@@ -10,7 +9,7 @@ function LastPage() {
   <div className='lastPage'>
    <h1 style={{color:"var(--theme)"}}> Thank You!</h1>
    <br/>
-   <h3> Let's Start your Journey with us!
+   <h3> Let&apos;s Start your Journey with us!
     <br/>
     <br/>
     Happy Travelling! Happy Staying!

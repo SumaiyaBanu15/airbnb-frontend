@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
 import { Modal, Button } from 'react-bootstrap'
 import Cards from '../CardsFlex/Cards'
 import { useNavigate } from 'react-router-dom'
 import './style.css'
 
 
-function HouseModal({showModal, closeModal, title, modalData}) {
+function HouseModal(showModal, closeModal, title, modalData) {
 
   let navigate = useNavigate();
   return <>
