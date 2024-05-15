@@ -38,9 +38,9 @@ function Signup() {
       setNameRes("Please fill this input field");
       return;
     }
-    else if(name.length < 2){
+    else if(name.length < 3){
       setNameRes(
-        "Last name should be at least above 3 characters long!"
+        "Name should be at least 3 characters long!"
       );
       return;
     }
